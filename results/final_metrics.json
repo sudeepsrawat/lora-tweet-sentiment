@@ -1,0 +1,29 @@
+{
+  "dataset": "cardiffnlp/tweet_eval/sentiment",
+  "base_model": "unsloth/mistral-7b-bnb-4bit",
+  "test_size": 12284,
+  "distribution": {
+    "neutral": 5937,
+    "positive": 2375,
+    "negative": 3972
+  },
+  "base": {
+    "accuracy": 0.2879,
+    "macro_f1": 0.2868,
+    "format_compliance": 0.5183
+  },
+  "lora": {
+    "accuracy": 0.7183,
+    "macro_f1": 0.7155,
+    "format_compliance": 1.0
+  },
+  "baseline": {
+    "accuracy": 0.4833,
+    "macro_f1": 0.2172
+  },
+  "decomposition": {
+    "format_effect": 0.2675,
+    "task_effect": 0.1596,
+    "total_lift": 0.4305
+  }
+}
