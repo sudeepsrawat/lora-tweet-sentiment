@@ -47,7 +47,7 @@ LoRA didn't just improve the model; it turned a fundamentally broken pipeline in
 
 ## 🚀 How to Run
 
-1. Open the notebook in Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK)
+1. Open the notebook in Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yA6veqdU_bzDyYpVqv9n7icr_qtLJ0-m)
 2. Go to **Runtime → Change runtime type** and select **T4 GPU**.
 3. Run the cells sequentially from top to bottom.
 4. *Note: Total execution time is ~70 minutes (38 mins training + 25 mins evaluation).*
